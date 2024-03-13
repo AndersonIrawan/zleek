@@ -41,7 +41,7 @@ h6 {
 .solo {
     background-color: black;
     color: white;
-    padding: 16%;
+    padding: 12%;
 }
 
 .solotext {
@@ -49,9 +49,9 @@ h6 {
 }
 
 .footer {
-  background-color: grey;
+  background-color: black;
   color: white;
-  padding: 16%;
+  padding: 8%;
 }
 
 .medtext {
@@ -68,15 +68,63 @@ h6 {
     color: white;
 }
 
+.bg {
+  transition: 0.3s;
+}
+
+.bg:hover{
+  background-color: #ee4244;
+  color: white;
+}
+
 svg {
   position: relative;
   margin: 10px;
 }
 
+.svgspace {
+  margin: 10px;
+}
+
+a {
+  color: white;
+}
+
+.instagram {
+  background-color: #bc2a8d;
+  border-radius: 100px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.instagram:hover, .githubbtn:hover, .linkedin:hover {
+  background-color: #ee4244;
+}
+
+.githubbtn {
+  background-color: #2B3137;
+  border-radius: 100px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+
+.linkedin {
+  background-color: #0077b5;
+  border-radius: 100px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+
 .svgpos {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.svgpos:hover {
+  size: 50%;
 }
 
 .topnav {
