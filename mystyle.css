@@ -1,0 +1,110 @@
+h1, h2 {
+    font-family: "ff-dax-compact-pro", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h6 {
+    letter-spacing: 3px;
+}
+
+.spacing {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.left-pbox {
+    padding-right: 70%;
+}
+
+.right-pbox {
+    padding-left: 70%;
+}
+
+.slab {
+    font-family: "rockwell", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center {
+    text-align: center;
+  }
+
+.right {
+    text-align: right;
+}
+
+.solo {
+    background-color: black;
+    color: white;
+    padding: 16%;
+}
+
+.intro {
+    color: white;
+    padding: 12%;
+}
+
+.bg-red {
+    background-color: #ee4244;
+    color: white;
+}
+
+.solotext {
+    font-size: 150px;
+}
+
+svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+    position: relative;
+    padding: 30px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    padding: 30px 0;
+    float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
