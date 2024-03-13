@@ -9,8 +9,7 @@ h6 {
 }
 
 .spacing {
-    padding-top: 6%;
-    padding-bottom: 3%;
+    padding-top: 10%;
 }
 
 .left-pbox {
@@ -41,6 +40,14 @@ h6 {
     padding: 16%;
 }
 
+.solotext {
+  font-size: 150px;
+}
+
+.medtext {
+  font-size: 75px;
+}
+
 .intro {
     color: white;
     padding: 12%;
@@ -49,10 +56,6 @@ h6 {
 .bg-red {
     background-color: #ee4244;
     color: white;
-}
-
-.solotext {
-    font-size: 150px;
 }
 
 svg {
