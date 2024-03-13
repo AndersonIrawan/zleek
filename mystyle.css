@@ -34,6 +34,10 @@ h6 {
     text-align: right;
 }
 
+.left {
+  text-align: left;
+}
+
 .solo {
     background-color: black;
     color: white;
