@@ -122,12 +122,15 @@ a {
   transition: 0.3s;
 }
 
-
 .linkedin {
   background-color: #0077b5;
   border-radius: 100px;
   display: inline-block;
   transition: 0.3s;
+}
+
+.back-button {
+  color: black;
 }
 
 .topnav {
