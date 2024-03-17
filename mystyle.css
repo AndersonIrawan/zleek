@@ -18,12 +18,13 @@ h6 {
     padding-top: 10%;
 }
 
-.left-pbox {
-    padding-right: 70%;
+.spacing-s {
+  padding-top: 2%;
 }
 
-.right-pbox {
-    padding-left: 70%;
+.spacing-side {
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .slab {
@@ -47,7 +48,8 @@ h6 {
 .solo {
     background-color: black;
     color: white;
-    padding: 12%;
+    padding-top: 12%;
+    padding-bottom: 12%;
 }
 
 .solotext {
@@ -57,7 +59,8 @@ h6 {
 .footer {
   background-color: black;
   color: white;
-  padding: 8%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .medtext {
@@ -66,7 +69,8 @@ h6 {
 
 .intro {
     color: white;
-    padding: 12%;
+    padding-top: 12%;
+    padding-bottom: 12%;
 }
 
 .bg-red {
@@ -81,6 +85,11 @@ h6 {
 .bg:hover{
   background-color: #ee4244;
   color: white;
+}
+
+.bg-white {
+  background-color: white;
+  color: #ee4244;
 }
 
 svg {
@@ -102,6 +111,11 @@ svg {
 
 a {
   color: white;
+  text-decoration: none;
+}
+
+.a-red {
+  color: #ee4244;
 }
 
 .instagram {
@@ -129,7 +143,22 @@ a {
   transition: 0.3s;
 }
 
-.back-button {
+.home {
+  background-color: #ee4244;
+  border-radius: 50px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.home:hover {
+  background-color: black;
+}
+
+.text-v-center {
+  padding: 70px 0;;
+}
+
+.black {
   color: black;
 }
 
@@ -164,6 +193,11 @@ a {
   .topnav-right {
     padding: 30px 0;
     float: right;
+  }
+
+  .topnav-left {
+    padding-right: 300px;
+    float: left;
   }
   
   /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
