@@ -27,6 +27,11 @@ h6 {
   padding-right: 2%;
 }
 
+.spacing-footer {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .slab {
     font-family: "rockwell", serif;
     font-weight: 400;
@@ -116,6 +121,7 @@ a {
 
 .a-red {
   color: #ee4244;
+  text-decoration: underline;
 }
 
 .instagram {
@@ -155,7 +161,7 @@ a {
 }
 
 .text-v-center {
-  padding: 70px 0;;
+  padding: 70px 0;
 }
 
 .black {
