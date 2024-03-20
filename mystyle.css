@@ -215,8 +215,22 @@ body {
   background-color: transparent;
 }
 
+.black-text {
+  color: black;
+}
+
 /*Portfolio 1*/
 
 .bg-hive {
   background-color: #fde44b;
+}
+
+/*Portfolio 2*/
+
+.bg-freshipe {
+  background-color: #e94d28;
+}
+
+.bg-fdark {
+  background-color: #242424;
 }
