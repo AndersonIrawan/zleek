@@ -131,6 +131,10 @@ a {
   text-decoration: none;
 }
 
+.white-txt {
+  color: white;
+}
+
 .a-red {
   color: #ee4244;
 }
