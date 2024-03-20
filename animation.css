@@ -65,8 +65,8 @@
 }
   
   .roller{
-  height: 2.6rem; 
-  line-height: 2.125rem;  
+  height: 7.125rem; 
+  line-height: 7rem;  
   }
   
   #spare-time {
@@ -83,13 +83,13 @@
     top:0;
   }
   25%{
-    top: -2.125rem;    
+    top: -7rem;    
   }
   50%{
-    top: -4.25rem;
+    top: -14rem;
   }
   72.5%{
-    top: -6.375rem;
+    top: -21rem;
   }
 }
 }
