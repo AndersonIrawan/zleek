@@ -10,6 +10,14 @@ h1, h2 {
     font-style: normal;
 }
 
+.pacifico {
+  font-family: 'Pacifico';
+}
+
+.inter {
+  font-family: 'Inter';
+}
+
 h6 {
     letter-spacing: 3px;
 }
@@ -232,5 +240,33 @@ body {
 }
 
 .bg-fdark {
-  background-color: #242424;
+  background-color: #181818;
+}
+
+.ea4d28 {
+  background-color: #ea4d28;
+}
+
+.freshipe-orange {
+  color: #ea4d28;
+}
+
+.e86e2a {
+  background-color: #e86e2a;
+}
+
+.d84325 {
+  background-color: #d84325;
+}
+
+.ffd747 {
+  background-color: #ffd747;
+}
+
+.ffffff{
+  background-color: white;
+}
+
+.ea4d28, .e86e2a, .d84325, .ffd747, .ffffff {
+  height: 70px;
 }
