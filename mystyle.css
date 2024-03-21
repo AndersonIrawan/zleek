@@ -75,7 +75,7 @@ div.b {
 }
 
 .solotext {
-  font-size: 150px;
+  font-size: 9rem;
 }
 
 .footer {
@@ -86,7 +86,7 @@ div.b {
 }
 
 .medtext {
-  font-size: 75px;
+  font-size: 4rem;
 }
 
 .intro {
@@ -142,6 +142,7 @@ svg {
 a {
   color: white;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .white-txt {
@@ -216,6 +217,14 @@ body {
   display: block;
 }
 
+a:hover {
+  color: black;
+}
+
+.red-btn:hover {
+  color: white;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -269,4 +278,28 @@ body {
 
 .ea4d28, .e86e2a, .d84325, .ffd747, .ffffff {
   height: 70px;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.inter-semi-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
 }
